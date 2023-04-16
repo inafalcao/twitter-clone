@@ -17,10 +17,18 @@ If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has a
    2. Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
 2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
 
-## How did I create this project?
+## Creating the project
 
-```
+```sh
 npm create vite@latest frontend-vue --template vue
 > Vue
 > Typescript
+```
+
+## Installation steps
+
+#### Install tailwind using Vite
+```sh
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
 ```
